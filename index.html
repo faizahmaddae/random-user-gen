@@ -12,10 +12,10 @@
 
     <div id="app">
         <div v-if="status =='loading'">
-            <img class="preloader" :class="gender" src="img/spinner.gif" :alt="`${firstName} ${lastName}`">
+            <img :class="gender" src="img/spinner.gif" :alt="`${firstName} ${lastName}`">
         </div>
         <div v-else>
-            <img  :class="gender" v-bind:src="picture" :alt="`${firstName} ${lastName}`">
+            <img :class="gender" v-bind:src="picture" :alt="`${firstName} ${lastName}`">
         </div>
 
         <h1>{{firstName}} {{lastName}}</h1>
