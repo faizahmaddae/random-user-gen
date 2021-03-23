@@ -1,1 +1,3 @@
-# Random-User-Generator - # Vue JS Crash Course 2021
+# Random-User-Generator - 
+
+Vue JS Crash Course 2021
