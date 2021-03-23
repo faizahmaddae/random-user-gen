@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random User Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 <body>
 
     <div id="app">
         <div v-if="status =='loading'">
-            <img :class="gender" src="img/spinner.gif" :alt="`${firstName} ${lastName}`">
+            <img :class="gender" src="assets/img/spinner.gif" :alt="`${firstName} ${lastName}`">
         </div>
         <div v-else>
             <img :class="gender" v-bind:src="picture" :alt="`${firstName} ${lastName}`">
